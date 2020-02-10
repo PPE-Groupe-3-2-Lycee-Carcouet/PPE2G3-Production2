@@ -1,0 +1,454 @@
+body
+{
+  background-image:url("images/fond.jfif");
+  background-attachment:fixed;
+
+
+
+}
+
+
+table
+{
+  transition-property : color ;
+  transition-duration : 1s;
+  border-color : black;
+  border-style : solid;
+  text-align : center;
+  margin: auto;
+    
+}
+
+table:hover
+{
+  border-color : red;
+    
+}
+
+
+
+h1
+{
+  position: relative;
+  font-family: cursive;
+  transition-property : color ;
+  transition-duration : 2s;
+  font-size : 40;
+  right:7%;
+  top: -45%;
+  color : #ffcc00;
+  text-align : center ;
+  font-size: 45px;
+  font-family: cursive;
+  font-weight: normal;
+  
+  
+}
+
+
+#connexion 
+{
+  position: relative;
+  text-align: right;
+  right:15%;
+  font-size : 17;
+  color: white;
+  display: block;
+  margin-left: 100%;
+
+}
+
+#connexion  a:hover
+{
+  color: #ffcc00;
+
+}
+
+
+
+.apparaitreDrapeau
+{
+  transition-property : background-image;
+  transition-duration : 1s;
+  font-family:"times new roman";
+  font-size : 36;
+  color : black;
+  text-align : center;
+}
+
+.apparaitreDrapeau:hover 
+{
+  background-image : url(drapeau.jpg);
+  
+}
+h2
+{
+  text-align : center;
+}
+
+h3
+{
+  text-align : center ;
+  color : red;
+}
+
+.testpolice{
+
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 60px;
+    line-height: 35px;
+    font-family: BrownPen;
+}
+.texteEnRouge
+{
+  font-family:"times new roman";
+  font-size : 18;
+  color : red;
+}
+
+.texteEnBleu
+{
+  font-family:"times new roman";
+  font-size : 36;
+  color : blue;
+}
+
+.fondMilieu 
+{ position:absolute;
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+  margin-left: -10px;
+}
+
+.logo
+{
+	position: relative;
+	top: -5%;
+  z-index: 1;
+}
+
+
+.cadreHautMilieu 
+{   
+  position : absolute;
+  top:-4%;
+  width:100%;
+  height:14%;
+  background-color:#0e62e8;
+  text-align : center;
+}
+
+
+.menu
+{
+  position : absolute;
+  width:100%;
+  right : 0;
+  height:15%;
+  top : 22%;
+  font-family : comic sans MS;
+  text-align : center;
+  
+}
+
+.diapomenu
+{
+  position: relative;
+  top:10%;
+  width: 100%;
+  height: 450px;
+  display: block;
+
+  background-color: #ffcc00;
+  
+
+
+}
+
+
+.InfoSupplementaires
+{
+  position : absolute;
+  width:20%;
+  left : 0;
+  height:55%;
+  top : 35%;
+  background-color:#FDF1B8;
+  border-radius : 24px;
+}
+.centrePage
+{
+  position : absolute;
+  width:78%;
+  height:55%;
+  text-align : center;
+  background-color:#0e62e8;
+  overflow:auto;
+  border-radius : 24px;
+  margin: auto;
+
+}
+
+
+
+
+
+}
+
+.BasPage
+{
+  position : relative;
+  width:100%;
+  height:10%;
+  background-color:#FFFFFF
+  vertical-align: bottom;
+  
+}
+
+
+.slides
+{
+    position: relative; 
+    width : calc(1380px*3);
+    /*CSS3 keyframes animation*/
+    animation-name: Glisse ;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out-in;
+
+}
+
+.slider 
+{
+    position: relative;
+    top:10%;
+    height: 426px;
+    overflow: hidden;
+
+}
+
+.slide
+{
+  float:left;
+}
+
+
+
+
+@keyframes Glisse {
+  0% {
+    left: 0px; 
+  }
+  15% {
+    left: 0px; 
+  }
+  35% {
+    left: -1280px; 
+  }
+  50% {
+    left: -1280px; 
+  }
+  70% {
+    left: -2560px; 
+  }
+  85% {
+    left: -2560px; 
+  }
+  100% {
+    left: 0px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+.sContent
+{
+    position: relative;   
+    /*CSS3 keyframes animation*/
+    animation-name: ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out-in;
+    display: inline;
+    width : calc(300px*3);
+}
+
+.slideshow 
+{
+    position: relative;
+    top:-5%;
+    width : 900px;
+    height: 300px;
+    margin: 200px auto;
+}
+.slide2
+{
+    float:left;
+    right : 10px;
+
+}
+.slide2:hover
+{
+
+  transform : scale(1.05);
+
+}
+
+@keyframes AutoSlide 
+{
+  0%{
+    transform: translateX(0);
+  }
+  33%{
+    transform: translateX(-500px);
+  }
+
+  66%{
+    transform: translateX(-1000px);
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#menu-bar {
+  top:-111%;
+  left:4%;
+  width: 45%;
+  margin: 0px 0px 0px 0px;
+  padding: 6px 6px 4px 6px;
+  height: 40px;
+  line-height: 100%;
+  position:relative;
+  z-index:999;
+
+}
+
+#menu-bar li {
+  margin: 0px 0px 6px 0px;
+  padding: 0px 6px 0px 6px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu-bar a {
+  font-family: comic sans ms;
+  font-style: normal;
+  font-size: 20px;
+  color: #E7E5E5;
+  text-decoration: red;
+  display: block;
+  padding: 6px 20px 6px 20px;
+  margin: 0;
+  margin-bottom: 6px;
+}
+#menu-bar li ul li a {
+  margin: 0;
+}
+#menu-bar .active a, #menu-bar li:hover > a  /*SURBRILLANCE  DU MENU*/
+{
+  /*background-color: #ffcc00;*/
+  color: #0e62e8;
+  text-shadow: 0px 0px 0px #ffcc00;
+  background-color: white;
+  border:2px solid #ffcc00;
+
+}
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: red;
+
+
+}
+#menu-bar ul a:hover {
+  background: ##ffcc00;
+  color:#ffcc00;
+  background: linear-gradient(top,  #04ACEC,  #0186BA);
+  background: -ms-linear-gradient(top,  #04ACEC,  #0186BA);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CDCDCD), to(#CDCDCD))!important;
+  background: -moz-linear-gradient(top,  #04ACEC,  #0186BA) ;
+  color: #0e62e8 !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  text-shadow: 1px 1px 1px #0e62e8;
+
+}
+#menu-bar li:hover > ul {
+  display: block;
+}
+#menu-bar ul {
+  background: #DDDDDD;
+  background: linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  background: -ms-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
+  background: -moz-linear-gradient(top,  #FFFFFF,  #CFCFCF);
+  display: none;
+  margin: 5;
+  padding: 0;
+  width: 190px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  border: solid 1px #B4B4B4;
+
+}
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#menu-bar ul a {
+  padding:10px 0px 10px 15px;
+  color:#424242 !important;
+  font-size:14px;
+  font-style:normal;
+  font-family:arial;
+  font-weight: normal;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
+#menu-bar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu-bar {
+  display: inline-block;
+}
+  html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}
+
+
+
+
